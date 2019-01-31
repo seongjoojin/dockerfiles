@@ -1,4 +1,4 @@
-# Nuxt initial build (docker & makefile)
+# Next initial build (docker & makefile)
 
 ```
 $ make build

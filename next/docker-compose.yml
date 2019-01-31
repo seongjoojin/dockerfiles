@@ -1,0 +1,11 @@
+version: "2.2"
+
+services:
+  next:
+    build: .
+    tty: true
+    command: yarn dev
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"

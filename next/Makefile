@@ -4,7 +4,7 @@ build:
 	docker-compose build
 
 install:
-	docker-compose run --rm nuxt yarn create nuxt-app
+	docker-compose run --rm next yarn create next-app next
 
 run:
 	docker-compose up
